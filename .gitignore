@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.DS_Store
+
+# Generated model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# Generated reports/plots can be added intentionally if needed
+reports/*.png
+reports/*.jpg
+reports/*.pdf
+
